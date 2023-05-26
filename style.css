@@ -158,7 +158,7 @@ img{
 .nav-icon {
     width: 24px;
     height: 24px;
-    margin-left: 3rem;
+    margin-left: 0.5rem;
 }
 
 .nav-text {
@@ -174,7 +174,7 @@ img{
 
 @media (max-width: 768px) {
     .header {
-        width: 15%;
+        width: 50px
     }
 
     .nav-text {
@@ -193,6 +193,9 @@ img{
 
     .header:hover .nav-text {
         opacity: 1;
+    }
+    .design, .hero, .introduction, .background {
+        margin-left: 5%
     }
 }
 
@@ -337,3 +340,5 @@ biblioggraphy
 .special-p p{
     margin: 3rem 6rem;
 }
+
+
